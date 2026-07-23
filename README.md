@@ -7,18 +7,17 @@
 ![TypeScript](https://img.shields.io/badge/lang-TypeScript-3178C6)
 ![Responsive](https://img.shields.io/badge/design-Responsive-green)
 ![Mock Data](https://img.shields.io/badge/data-Mock-orange)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?logo=vercel)](https://convertlab-ai.vercel.app)
 
 ---
 
 ## 1. 在线体验
 
-> ## 在线体验
-
 [点击体验 ConvertLab](https://convertlab-ai.vercel.app)
 
-GitHub：[https://github.com/Mihutr/convertlab-ai](https://github.com/Mihutr/convertlab-ai)
+> 当前为 V0.1 高保真交互 MVP，使用 Mock 诊断数据，主要用于验证产品流程、报告结构与用户交互。
 
-<!-- 部署后替换为 Vercel 地址 -->
+GitHub：[https://github.com/Mihutr/convertlab-ai](https://github.com/Mihutr/convertlab-ai)
 
 ---
 
@@ -179,11 +178,17 @@ ConvertLab 帮助用户回答三个核心问题：
 
 ## 9. 页面截图
 
-| 首页 | 诊断表单 | 诊断报告 |
-|------|---------|---------|
-| ![首页](docs/images/home.png) | ![诊断表单](docs/images/diagnosis-form.png) | ![诊断报告](docs/images/report.png) |
+### 首页
 
-> 截图待补充。请将对应截图放入 `docs/images/` 目录，文件名分别为 `home.png`、`diagnosis-form.png`、`report.png`。
+![ConvertLab 首页](./docs/images/home.png)
+
+### 结构化诊断流程
+
+![ConvertLab 诊断表单](./docs/images/diagnosis-form.png)
+
+### 诊断报告
+
+![ConvertLab 诊断报告](./docs/images/report.png)
 
 ---
 
@@ -389,6 +394,14 @@ npm run build   # 生产构建
 - 完成用户反馈评分与提交
 - 完成 PC 与移动端响应式适配
 - 通过 TypeScript 类型检查和生产构建
+
+### 2026-07｜V0.1 云端部署
+
+- 完成 GitHub 仓库发布
+- 完成 Vercel 生产环境部署
+- 上线公开体验地址
+- 补充产品页面截图
+- GitHub main 分支更新后自动触发 Vercel 部署
 
 ---
 
